@@ -1,0 +1,10 @@
+# Server
+server:
+  port: 8080
+
+# Eureka Discovery Client Consumer
+eureka:
+  client:
+    register-with-eureka: true
+    serviceUrl:
+      defaultZone: http://discovery-service.prod/eureka

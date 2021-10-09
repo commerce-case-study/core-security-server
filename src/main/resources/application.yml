@@ -1,0 +1,17 @@
+# Spring Application
+spring:
+  application:
+    name: core-security
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://host.docker.internal:3306/db_member?serverTimezone=Asia/Jakarta&useLegacyDatetimeCode=false
+    username: umember
+    password: 123qwe
+
+# Finbox Security
+finbox: 
+  keystore:
+    password: P@ssw0rd1!
+    alias: finbox-sec
+    file: ssl/finbox-sec.jks
+    id: finbox-sec-key-id

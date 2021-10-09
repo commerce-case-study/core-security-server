@@ -1,0 +1,10 @@
+# Server
+server:
+  port: 8102
+
+# Eureka Discovery Client Consumer
+eureka:
+  client:
+    register-with-eureka: true
+    serviceUrl:
+      defaultZone: http://localhost:8103/eureka
